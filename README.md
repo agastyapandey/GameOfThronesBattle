@@ -43,7 +43,7 @@ Below are open APIs-
 
 /search?king=Robb Stark
 
-- return list of battles where 'attacker_king' or 'defender_king' was 'Ro bb Stark'
+return list of battles where 'attacker_king' or 'defender_king' was 'Robb Stark'
 
 Also works for multiple queries
 
@@ -60,7 +60,7 @@ Steps to setup on local machine-
 
 3- import data from csv file using below command-
 
-mongoimport --db gameofthronesbattle --collection battle --type csv --headerline --file /data/dump/music/catalog.csv
+mongoimport --db gameofthronesbattle --collection battle --type csv --headerline --file battles.csv
 
 4- clone repo from git
 
@@ -68,7 +68,7 @@ mongoimport --db gameofthronesbattle --collection battle --type csv --headerline
 
 6-Add below linein .env file-
 
-MONGOLAB_URI=mongodb://localhost:27017/<dbname>
+MONGOLAB_URI=mongodb://localhost:27017/dbname
  
 7- run command: npm install
 
