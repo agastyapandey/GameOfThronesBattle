@@ -3,7 +3,7 @@ var router = express.Router();
 var battleController = require('../controllers/battle.controller');
 
 router.get('/', function(req, res, next) {
-    res.json({"message": "Welcome to GAME OF THRONES BATTLE application."});
+    res.json({"message": "Welcome to agasstyapandey.com"});
 });
 
 router.get('/list', function(req, res) {
