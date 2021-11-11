@@ -156,3 +156,4 @@ function getStats(battles){
         };
     }
 }
+//ggg
